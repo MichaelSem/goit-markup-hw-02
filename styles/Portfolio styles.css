@@ -23,6 +23,7 @@ a:hover {
 .buttons-in-list {
     display: inline;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .list-item-title {
