@@ -20,7 +20,6 @@ body {
 
 img {
     display: block;
-    width: 100%;
 }
 
 .header-links {
@@ -40,14 +39,23 @@ img {
     font-size: 18px;
 }
 
-a {
+.header-hover {
     text-decoration: none;
     color:#2E2F42;
+    transition: 0.5s;
 }
 
-a:hover {
+.header-hover:hover {
     color: #404BBF;
-    text-decoration: underline;
+    border-bottom: 4px solid #4D5AE5;
+    padding-bottom: 20px;
+}
+
+.main-page-bg {
+    box-sizing: border-box;
+    left: 0px;
+    top: 72px;
+    background: #2E2F42;
 }
 
 .title {
@@ -61,22 +69,28 @@ a:hover {
 }
 
 .list-item-title {
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .list-item-desc {
+    font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 footer {
     background-color: #2E2F42;
-    height: 310px;
 }
 
 .order-button {
     font-family: inherit;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-size: 16px;
