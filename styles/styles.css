@@ -1,15 +1,27 @@
 html {
     width: 100%;
-    overflow-x: hidden;
 }
 
 body {
-    font-family: 'Roboto' sans-serif;
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color: var(--Navy-blue-color);
     width: 100%;
-    margin: auto;
-    overflow-x: hidden;
     background-color: #fff;
+}
+
+:root {
+    --Iris-color: #4D5AE5;
+    --Ocean-color: #404BBF;
+    --Navy-blue-color: #2E2F42;
+    --white-color: #fff;
+    --Slate-color: #434455;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    display: block; 
+    font-weight: 800; 
+    text-decoration: none
 }
 
 *{
@@ -23,8 +35,7 @@ img {
 }
 
 .header-links {
-    font-family: inherit;
-    color: #2E2F42;
+    color: var(--Navy-blue-color);
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -41,30 +52,25 @@ img {
 
 .header-hover {
     text-decoration: none;
-    color:#2E2F42;
-    transition: 0.5s;
+    color: var(--Navy-blue-color);
 }
 
 .header-hover:hover {
-    color: #404BBF;
-    border-bottom: 4px solid #4D5AE5;
-    padding-bottom: 20px;
+    color: var(--Ocean-color);
+    border-bottom: solid var(--Iris-color);
 }
 
 .main-page-bg {
     box-sizing: border-box;
     left: 0px;
     top: 72px;
-    background: #2E2F42;
+    background: var(--Navy-blue-color);
 }
 
 .title {
     font-size: 56px;
-    color: #fff;
-    background-color: #2E2F42;
-    background-size: auto;
-    margin: 0;
-    font-family: inherit;
+    color: var(--white-color);
+    background-color: var(--Navy-blue-color);
     font-weight: 700;
 }
 
@@ -73,7 +79,7 @@ img {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--Navy-blue-color);
 }
 
 .list-item-desc {
@@ -81,19 +87,19 @@ img {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--Slate-color);
 }
 
 footer {
-    background-color: #2E2F42;
+    background-color: var(--Navy-blue-color);
 }
 
 .order-button {
     font-family: inherit;
-    background-color: #4D5AE5;
+    background-color: var(--Ocean-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--white-color);
     cursor: pointer;
 }
