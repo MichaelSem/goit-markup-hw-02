@@ -15,7 +15,7 @@ body {
     --Navy-blue-color: #2E2F42;
     --white-color: #fff;
     --Slate-color: #434455;
-    --cloud-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
 }
 
 .header {
@@ -24,12 +24,28 @@ body {
 
 .header-links {
     text-decoration: none;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .header-contacts {
     color: var(--Navy-blue-color);
-    font-weight: 400;
+    font-style: normal;
+}
+
+.header-pages {
+    list-style: none;
+}
+
+.goals-list {
+    list-style: none;
+}
+
+.members-list {
+    list-style: none;
+}
+
+.desc-list {
+    list-style: none;
 }
 
 .logo {
@@ -103,7 +119,7 @@ footer {
     background-color: var(--Navy-blue-color);
 }
 
-.footer-decs {
+.footer-desc {
     max-width: 264px;
     font-size: 16px; 
     line-height: 1.5;
@@ -121,7 +137,6 @@ footer {
     cursor: pointer;
     background-color: var(--cloud-color);
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border: none;
     padding: 12px 24px;
     transition: 0.5s;
