@@ -1,0 +1,133 @@
+html {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--Navy-blue-color);
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+:root {
+    --Iris-color: #4D5AE5;
+    --Ocean-color: #404BBF;
+    --Navy-blue-color: #2E2F42;
+    --white-color: #fff;
+    --Slate-color: #434455;
+    --cloud-color: #E7E9FC;
+}
+
+.header {
+    font-size: 18px;
+}
+
+.header-links {
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.header-contacts {
+    color: var(--Navy-blue-color);
+    font-weight: 400;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    display: block; 
+    font-weight: 800; 
+    text-decoration: none
+}
+
+.header-hover:hover {
+    color: var(--Ocean-color);
+    border-bottom: solid var(--Iris-color);
+}
+
+.header-hover {
+    text-decoration: none;
+    color: var(--Navy-blue-color);
+}
+
+.main-page-bg {
+    box-sizing: border-box;
+    left: 0px;
+    top: 72px;
+    background: var(--Navy-blue-color);
+}
+
+.title {
+    font-size: 56px;
+    color: var(--white-color);
+    font-weight: 700;
+    line-height: 1.0714285714285714285714285714286;
+}
+
+.list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Navy-blue-color);
+}
+
+.list-item-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Slate-color);
+}
+
+.section-titles {
+    font-size: 36px; 
+    font-weight: 700;
+    line-height: 40px; /*там не можна правильно написати множник, так як там буде 1 в періоді. якщо я просто пишу 1.11111111111111111111 і тд, воно мені не видае правильний результат */
+}
+
+.order-button {
+    font-family: inherit;
+    background-color: var(--Ocean-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.buttons-list {
+    list-style: none;
+}
+
+footer {
+    background-color: var(--Navy-blue-color);
+}
+
+.footer-decs {
+    max-width: 264px;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: var(--white-color);
+}
+
+.products-list {
+    list-style: none;
+}
+
+.buttons-in-list {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    background-color: var(--cloud-color);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    padding: 12px 24px;
+    transition: 0.5s;
+}
+
+.buttons-in-list:hover {
+    background-color: var(--Ocean-color);
+    color: var(--white-color);
+}
